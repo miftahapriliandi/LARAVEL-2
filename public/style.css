@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    font-family: montserrat;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+    position: relative;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    height: 76px;
+    align-items: center;
+}
+
+.nav-brand a{
+    font-size: 30px;
+    color: #5b5b5b;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.nav-items {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-links{
+    display: flex;
+    padding: 0 150px;
+    width: 100%;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+}
+
+.nav-link {
+    color: #5b5b5b;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    color: #000000;
+    text-decoration: none;
+}
+
+.auth{
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+    list-style: none;
+    align-items: center;
+}
+
+.btn-secondary{
+    text-decoration: none;
+    border: none;
+    background-color: transparent;
+    color: #5b5b5b;
+    font-weight: 500;
+    font-size: 16px;
+    border-radius: 100px;
+}
+.btn-primary{
+    text-decoration: none;
+    padding: 7px 18px;
+    border: 2px solid #5b5b55;
+    background-color: transparent;
+    color: #5b5b5b;
+    font-weight: 500;
+    font-size: 16px;
+    border-radius: 30px;
+}
+
+.hero-sec h1{
+    display: flex;
+    text-align: center;
+    font-size: 62px;
+    color: #5b5b55;
+    padding: 200px 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.socmed {
+    display: flex;
+    text-align: center;
+    font-size: 52px;
+    color: #5b5b55;
+    justify-content: center;
+    align-items: center;
+}
+
+.socmed h1{
+    display: flex;
+    font-size: 62px;
+    color: #5b5b55;
+    padding: 200px 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.links{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    font-size: 18px;
+    /* padding: 200px 0px; */
+    list-style: none;
+    align-items: center;
+}
+
+.link {
+    display: flex;
+    color: #5b5b5b;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: #000000;
+    text-decoration: none;
+}
+.hero-sec2{
+    display: flex;
+    text-align: center;
+    font-size: 52px;
+    color: #5b5b55;
+    padding: 70px 0;
+    justify-content: center;
+    align-items: center;
+}
